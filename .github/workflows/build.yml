@@ -20,7 +20,7 @@ jobs:
         with:
           setup-java_java-version: 21
 
-      - name: Build Hydraulic
+      - name: Build Genderfluidic
         run: ./gradlew build
 
       - name: Archive Artifacts
@@ -28,8 +28,8 @@ jobs:
         if: success()
         with:
           artifacts: | 
-            fabric/build/libs/hydraulic-fabric.jar
-            neoforge/build/libs/hydraulic-neoforge.jar
+            fabric/build/libs/Genderfluidic-fabric.jar
+            neoforge/build/libs/Genderfluidic-neoforge.jar
 
       - name: Get Version
         if: ${{ success() && github.repository == 'GeyserMC/Hydraulic' && github.ref_name == 'master' }}
@@ -46,8 +46,8 @@ jobs:
           appID: ${{ secrets.RELEASE_APP_ID }}
           appPrivateKey: ${{ secrets.RELEASE_APP_PK }}
           files: |
-            fabric:fabric/build/libs/hydraulic-fabric.jar
-            neoforge:neoforge/build/libs/hydraulic-neoforge.jar
+            fabric:fabric/build/libs/Genderfluidic-fabric.jar
+            neoforge:neoforge/build/libs/Genderfluidic-neoforge.jar
           releaseEnabled: false
           saveMetadata: true
           releaseProject: 'hydraulic'
@@ -61,8 +61,8 @@ jobs:
           privateKey: ${{ secrets.DOWNLOADS_PRIVATE_KEY }}
           host: ${{ secrets.DOWNLOADS_SERVER_IP }}
           files: |
-            fabric/build/libs/hydraulic-fabric.jar
-            neoforge/build/libs/hydraulic-neoforge.jar
+            fabric/build/libs/Genderfluidic-fabric.jar
+            neoforge/build/libs/Genderfluidic-neoforge.jar
           changelog: ${{ steps.metadata.outputs.body }}
 
       - name: Notify Discord
