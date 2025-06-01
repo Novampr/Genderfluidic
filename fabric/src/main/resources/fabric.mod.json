@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "${id}",
   "version": "${version}",
-  "name": "${name}",
-  "description": "A companion mod to Geyser which allows for Bedrock players to join modded Minecraft: Java Edition servers.",
+  "name": "Genderfluidic",
+  "description": "A companion mod to Gayser which allows for Bedrock players to join modded Minecraft: Java Edition servers.",
   "authors": [
     "${author}"
   ],

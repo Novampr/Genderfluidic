@@ -2,11 +2,11 @@ modLoader="javafml"
 loaderVersion="[4,)"
 license="MIT"
 [[mods]]
-modId="hydraulic"
+modId="genderfluidic"
 version="${version}"
-displayName="Hydraulic"
+displayName="Genderfluidic"
 logoFile="hydraulic.png"
-authors="GeyserMC"
+authors="GayserMC"
 description='''${description}'''
 [[mixins]]
 config = "hydraulic.mixins.json"
