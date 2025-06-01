@@ -4,10 +4,12 @@
 [![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/geysermc)
 [![Crowdin](https://badges.crowdin.net/geyser/localized.svg)](https://translate.geysermc.org/)
 
-> [!NOTE]
+> [!WARNING]
 > The project is currently being renamed from Hydraulic to Genderfluidic, this is for pride month, this won't actually remain :)
 > 
 > Check the `master` branch for *actual* changes
+>
+> Please ensure any contributions are done from the `master` branch!
 
 Genderfluidic is a companion to Geyser which allows for Bedrock players to join modded Minecraft: Java Edition servers.
 
