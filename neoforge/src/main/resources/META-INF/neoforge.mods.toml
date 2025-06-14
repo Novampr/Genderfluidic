@@ -5,7 +5,7 @@ license="MIT"
 modId="genderfluidic"
 version="${version}"
 displayName="Genderfluidic"
-logoFile="hydraulic.png"
+logoFile="genderfluidic.png"
 authors="GayserMC"
 description='''${description}'''
 [[mixins]]
